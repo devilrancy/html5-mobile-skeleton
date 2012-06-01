@@ -1,0 +1,12 @@
+﻿#Systems
+.*
+*~
+.DS_Store
+._*
+.Trashes
+Thumbs.db 
+Desktop.ini
+
+#Overrides
+!.gitignore
+!.gitmodules
