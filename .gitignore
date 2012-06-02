@@ -10,3 +10,4 @@ Desktop.ini
 #Overrides
 !.gitignore
 !.gitmodules
+!.htaccess
