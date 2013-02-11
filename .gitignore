@@ -1,4 +1,4 @@
-﻿#Systems
+﻿#System
 .*
 *~
 .DS_Store
@@ -11,3 +11,10 @@ Desktop.ini
 !.gitignore
 !.gitmodules
 !.htaccess
+
+#Composer
+/composer.phar
+/composer.lock
+
+#vendor
+/vendor
