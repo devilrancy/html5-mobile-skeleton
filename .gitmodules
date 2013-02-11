@@ -1,6 +1,6 @@
-[submodule "vendor/h5bp/mobile-boilerplate"]
-	path = vendor/h5bp/mobile-boilerplate
+[submodule "submodules/h5bp/mobile-boilerplate"]
+	path = submodules/h5bp/mobile-boilerplate
 	url = https://github.com/h5bp/mobile-boilerplate.git
-[submodule "vendor/eightmedia/hammer.js"]
-	path = vendor/eightmedia/hammer.js
+[submodule "submodules/eightmedia/hammer.js"]
+	path = submodules/eightmedia/hammer.js
 	url = https://github.com/EightMedia/hammer.js.git
