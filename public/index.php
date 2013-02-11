@@ -11,9 +11,9 @@ $app = new Slim(array(
 ));
 
 
-$app->get('/', function() use ($app) {
 
-  $greetingsEarthlings = 'Hi, how are you?'
+$app->get('/', function() use ($app) {
+  $greetingsEarthlings = 'Hi, how are you?';
   $app->render(
     'index.twig',
     array(
