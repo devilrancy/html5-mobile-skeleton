@@ -36,6 +36,17 @@ module.exports = function (grunt) {
                 }
             }
         },
+        less: {
+            production: {
+                options: {
+                    paths: ['less/'],
+                    yuicompress: true
+                },
+                files: {
+                    'public/css/dev/styles.css': 'less/styles.css'
+                }
+            }
+        },
         watch: {
             scripts: {
                 files: ['scss/*.scss'],
@@ -50,6 +61,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     grunt.registerTask('default', ['concat', 'uglify', 'sass']);
