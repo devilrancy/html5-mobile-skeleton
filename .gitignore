@@ -21,3 +21,6 @@ Desktop.ini
 
 #grunt
 /node_modules
+
+#bower
+/components
