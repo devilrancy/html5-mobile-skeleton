@@ -1,7 +1,7 @@
 ﻿HTML5 Mobile Skeleton
 ---------------------------------------
 
-A skeleton for mobile HTML5 apps. Ready-to-go webroot directory, intended to get things started &mdash; on a pretty basic level. A lot of this is inspired by (and in fact uses a fair amount of) the awesome HTML5 Boilerplate.
+A skeleton for mobile HTML5 apps. Ready-to-go webroot directory, intended to get things started fast.
 
 This repository features a basic HTML-only skeleton as well as a simple [SLIM PHP](https://github.com/codeguy/Slim) app with [Twig](https://github.com/fabpot/Twig) templates. To install all dependencies, [get Composer](https://getcomposer.org/) and run
 ```bash
