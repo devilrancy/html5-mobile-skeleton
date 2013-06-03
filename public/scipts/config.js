@@ -1,8 +1,13 @@
 requirejs.config({
     baseUrl: './',
     paths: {
-        app: 'js'
+        "jquery": [
+            "//ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min",
+            "libs/jquery-1.10.0.min"
+        ],
+        "mylibs": "mylibs",
+        "libs": "libs"
     }
 });
 
-requirejs(['js/app.require']);
+requirejs(['app.require']);

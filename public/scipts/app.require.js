@@ -1,5 +1,6 @@
 ﻿var APP = APP || {};
 
-requirejs([], function () {
+requirejs(['jquery', 'libs/requirejs.domReady!'],
+function ( $ ) {
     
 });
