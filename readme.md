@@ -9,7 +9,7 @@ curl -sS https://getcomposer.org/installer | php
 php composer.phar install
 ```
 
-This app skeleton comes with some simple [Grunt](http://gruntjs.com/) tasks (concat and uglify JavaScript files, watch and compile SCSS files) to make your life even easier. If you want to use those you can get the required node modules by running
+This app skeleton comes with some simple [Grunt](http://gruntjs.com/) tasks (concat and uglify JavaScript files, watch and compile SCSS files, compile LESS) to make your life even easier. If you want to use those you can get the required node modules by running
 ```bash
 npm install
 ```
