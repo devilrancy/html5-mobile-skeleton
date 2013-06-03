@@ -55,7 +55,7 @@ module.exports = function (grunt) {
                     nospawn: true
                 }
             }
-        }
+        }, 
     });
 
     grunt.loadNpmTasks('grunt-contrib-concat');
