@@ -7,8 +7,8 @@ module.exports = function (grunt) {
                 separator: ';'
             },
             dist: {
-                src: ['public/js/app.js'],
-                dest: 'public/js/app.tmp.js'
+                src: ['public/scripts/app.js'],
+                dest: 'public/scripts/app.tmp.js'
             }
         },
         uglify: {
@@ -17,14 +17,14 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: {
-                    'public/js/app.min.js': ['<%= concat.dist.dest %>']
+                    'public/scripts/app.min.js': ['<%= concat.dist.dest %>']
                 }
             }
         },
         sass: {
             dist: {
                 files: { 
-                    'public/css/styles.css': 'scss/styles.scss',
+                    'public/styles/styles.css': 'scss/styles.scss',
                 }
             },
             develop: {
@@ -32,7 +32,7 @@ module.exports = function (grunt) {
                     style: 'expanded'
                 },
                 files: {
-                    'public/css/dev/styles.css': 'scss/styles.css'
+                    'public/styles/dev/styles.css': 'scss/styles.css'
                 }
             }
         },
@@ -43,7 +43,7 @@ module.exports = function (grunt) {
                     yuicompress: true
                 },
                 files: {
-                    'public/css/dev/styles.css': 'less/styles.css'
+                    'public/styles/dev/styles.css': 'less/styles.css'
                 }
             }
         },
